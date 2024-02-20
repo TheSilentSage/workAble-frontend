@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>workAble Register</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">  
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" type="module"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.7.2/firebase-firestore-compat.js"></script>
+
+</head>
+<body>
+    <div class="hero">
+        <div class="background"></div>
+        <div class="login">
+            <h1 id="myH1">workAble</h1>
+            <p id="myP1">Get ready to connect to millions <br>of people and grow your network</p>
+            <form class="loginform">
+                <div class="name">
+                    <span>
+                    <label for="firstname"></label>
+            
+                    <input type="text" name="firstname" id="firstname" placeholder="First Name">
+                </span>
+                <span>
+                    <label for="lastname"></label>
+                    <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+                </span>
+                </div>
+
+                <label for="email"></label>
+                <input class="form2" type="text" name="email" id="email" placeholder="Email">
+
+                <label for="password"></label>
+                <input class="form2" type="password" name="password" id="password" placeholder="Password">
+
+                <button type="submit"> Get Verified
+
+                </button>
+
+                <p id="myP2">Already have an account? <a href="login.html">Login</a></p>
+            </form>
+         </div>
+     </div>
+
+     
+    
+</body>
+</html>
+
